@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <!------------------------------NAV BAR--------------------------------------->
+    <section id="nav">
+      <nav
+        class="navbar bg-body-tertiary avbar-dark navvv fixed-top"
+        id="myCollapsible"
+      >
+        <div class="container-fluid">
+          <img class="navbar-brand logo img-fluid" src="logo.jpg" alt="logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-list bg-white"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img class="navbar-brand logo" src="logo.jpg" alt="logo" />
+              <button
+                type="button"
+                class="btn-close bg-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body text-center">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="#home"
+                    data-bs-dismiss="offcanvas"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about" data-bs-dismiss="offcanvas"
+                    >About</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!------------------------------HOME------------------------------------------>
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="px-4 py-5 my-5 text-center">
+              <img
+                class="d-block mx-auto mb-4 profile"
+                src="/profile.jpg"
+                alt="profile"
+              />
+              <h1 class="display-5 fw-bold text-white">SIVA KUMAR</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="text-white mb-4">
+                  Hi there! I'm Siva Kumar, a
+                  <span class="frontend"> frontend developer </span> who loves
+                  creating awesome websites. I know my way around
+                  <span class="design">design</span> and
+                  <span class="coding"> coding,</span> turning cool ideas into
+                  great digital stuff. Check out my work
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <a
+                    href="mailto:appojannasivakumar@gmail.com"
+                    class="btn btn-outline-secondary btn-lg px-4"
+                    >HIRE ME</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------ABOUT--------------------------------------->
+    <section id="about"></section>
+    <!-----------------------------SKILLS--------------------------------------->
+
+    <!-----------------------------PROJECTS--------------------------------------->
+
+    <!-----------------------------CONTACT--------------------------------------->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
